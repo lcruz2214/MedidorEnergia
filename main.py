@@ -7,7 +7,7 @@ try:
     dado = dado.json()
     
     print(dado["feeds"][0]['created_at']) # recebendo valor de data ... será tratado posteriormente
-    print(dado["feeds"][0]['field1']) # valor de corrente de ventiladores
+    print(dado["feeds"][0]['field1']) # valor de corrente de ventiladoresclclear
     print(dado["feeds"][0]['field2']) # valor de corrente de iluminção
     
     for a in dado["feeds"][0]['created_at']: # for como teste para separação de ano, mes, dia e hh:mm:ss
